@@ -4,28 +4,35 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-image {
   width: 100%;
 }
+
 .header .more-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+  .header { 
+    text-align: center;
+  }
+
 }
-}
+
 .main{
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
@@ -143,6 +150,6 @@
   width:224px
 }
 
-ul li.edit-mode .label {
+.list .list-item.edit-mode .label {
   display:none;
 }
